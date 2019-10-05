@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Employee>
-    <address>Bangalore</address>
-    <id>i001</id>
-    <name>Lav</name>
-    <salary>2500000.0</salary>
-</Employee>

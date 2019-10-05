@@ -1,5 +1,7 @@
 package com.lav.jaxb;
 
+import java.util.Date;
+
 import com.lav.jaxb.converter.EmployeeConverter;
 import com.lav.jaxb.pojo.Employee;
 
@@ -7,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Employee employee = new Employee("i001", "Lav", "Bangalore", 2500000);
+		Employee employee = new Employee("i001", "Lav", "Bangalore", 2500000, new Date());
 
 		EmployeeConverter employeeConverter = new EmployeeConverter();
 
